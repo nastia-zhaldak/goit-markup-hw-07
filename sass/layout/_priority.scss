@@ -1,0 +1,37 @@
+.priority {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.priority-list {
+  display: flex;
+}
+.priority-list__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  @include font(700, 14px, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.priority-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.priority-list__item {
+  width: 270px;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.priority-list__container {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
