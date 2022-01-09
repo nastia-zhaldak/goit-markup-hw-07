@@ -417,10 +417,6 @@ body {
   margin-right: 0;
 }
 
-.connection-link__icon {
-  fill: currentColor;
-}
-
 .connection-list__item {
   margin-right: 50px;
 }
@@ -443,8 +439,13 @@ body {
   color: var(--accent-color);
 }
 
+.connection-list__link:hover .connection-list__icon, .connection-list__link:focus .connection-list__icon {
+  fill: var(--accent-color);
+}
+
 .connection-list__icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .logo {

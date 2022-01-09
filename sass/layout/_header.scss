@@ -50,9 +50,7 @@
     margin-right: 0;
   }
 }
-.connection-link__icon {
-  fill: currentColor;
-}
+
 .connection-list__item {
   margin-right: 50px;
   &:last-child {
@@ -66,11 +64,14 @@
   &:hover,
   &:focus {
     color: var(--accent-color);
+    .connection-list__icon {
+      fill: var(--accent-color);
+    }
   }
 }
-
 .connection-list__icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 .logo {
   font-family: Raleway, sans-serif;
